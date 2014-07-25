@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.control.Button?>
+
+<StackPane fx:id="channelListView" fx:controller="application.Controllers.ChannelController" xmlns:fx="http://javafx.com/fxml" >
+	<children>
+		<ListView fx:id="channelList"></ListView>
+	</children>	
+</StackPane>

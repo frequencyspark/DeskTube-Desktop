@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox fx:id="appLayout" fx:controller="application.Controllers.MainController" xmlns:fx="http://javafx.com/fxml">
+
+	<children>
+	
+	<fx:include source="ToolBarView.fxml" />
+
+		<HBox fx:id="mainLayout">
+			<children>
+				<fx:include source="ChannelListView.fxml"/>
+				<fx:include source="BrowserView.fxml"/>
+			</children>
+		</HBox>
+		
+		<fx:include source="StatusBarView.fxml"/>
+	
+	</children>
+
+</VBox>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.web.WebView?>
+<?import javafx.scene.layout.Pane?>
+
+
+<Pane fx:id="webPane" fx:controller="application.Controllers.WebController" xmlns:fx="http://javafx.com/fxml" >
+	<WebView fx:id="webView" />
+</Pane>
+
+

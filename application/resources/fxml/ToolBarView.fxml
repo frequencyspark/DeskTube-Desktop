@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.control.Button?>
+
+<ToolBar fx:id="toolBarView" fx:controller="application.Controllers.ToolBarController" xmlns:fx="http://javafx.com/fxml" >
+	<Button fx:id="editChannelsButton">Edit Channels</Button>
+</ToolBar>
+
